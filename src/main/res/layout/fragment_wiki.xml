@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream">
+
+    <TextView
+        android:id="@+id/tvWikiTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wildlife Wiki"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/forest_green_dark"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Filter Chips (placeholder for now) -->
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupFilter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:singleSelection="true"
+        app:layout_constraintTop_toBottomOf="@id/tvWikiTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingHorizontal="16dp">
+
+        <com.google.android.material.chip.Chip android:id="@+id/chipAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="All" style="@style/Widget.MaterialComponents.Chip.Choice" android:checked="true"/>
+        <com.google.android.material.chip.Chip android:id="@+id/chipFauna" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fauna" style="@style/Widget.MaterialComponents.Chip.Choice" />
+        <com.google.android.material.chip.Chip android:id="@+id/chipBirds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Birds" style="@style/Widget.MaterialComponents.Chip.Choice" />
+        <com.google.android.material.chip.Chip android:id="@+id/chipFlora" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Flora" style="@style/Widget.MaterialComponents.Chip.Choice" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWildlife"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        app:layout_constraintTop_toBottomOf="@id/chipGroupFilter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

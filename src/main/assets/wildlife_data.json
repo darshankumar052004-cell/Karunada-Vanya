@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Bengal Tiger",
+    "type": "Fauna",
+    "habitat": "Bandipur National Park",
+    "description": "The Bengal Tiger is the national animal of India. They are apex predators and essential to maintaining the ecological balance of the forest.",
+    "funFact": "No two tigers have the same stripes!",
+    "threatLevel": "Endangered",
+    "imageName": "tiger"
+  },
+  {
+    "name": "Indian Elephant",
+    "type": "Fauna",
+    "habitat": "Nagarhole National Park",
+    "description": "These gentle giants are highly intelligent and social creatures. They play a crucial role in shaping the forest ecosystem by dispersing seeds.",
+    "funFact": "Elephants can recognize themselves in a mirror!",
+    "threatLevel": "Endangered",
+    "imageName": "elephant"
+  },
+  {
+    "name": "Black Panther",
+    "type": "Fauna",
+    "habitat": "Kabini Wildlife Sanctuary",
+    "description": "A melanistic variant of the leopard. Their dark coat helps them blend into the dense, dark forests of the Western Ghats.",
+    "funFact": "If you look closely, you can still see their spots hidden in their dark fur!",
+    "threatLevel": "Vulnerable",
+    "imageName": "panther"
+  },
+  {
+    "name": "Great Indian Hornbill",
+    "type": "Birds",
+    "habitat": "Western Ghats",
+    "description": "Known for their large size and colorful beak. They are 'farmers of the forest' because they drop seeds over large areas.",
+    "funFact": "Their beak looks heavy, but it is actually hollow and very light!",
+    "threatLevel": "Vulnerable",
+    "imageName": "hornbill"
+  },
+  {
+    "name": "Indian Roller",
+    "type": "Birds",
+    "habitat": "Scrub Forests",
+    "description": "The state bird of Karnataka. It gets its name from its spectacular aerobatic displays during the breeding season.",
+    "funFact": "It flashes brilliant blue wings when it takes flight!",
+    "threatLevel": "Least Concern",
+    "imageName": "roller"
+  },
+  {
+    "name": "Sandalwood Tree",
+    "type": "Flora",
+    "habitat": "Deciduous Forests",
+    "description": "Famous for its fragrant wood and oil. Karnataka is globally renowned for producing high-quality sandalwood.",
+    "funFact": "Sandalwood trees get some of their nutrients by attaching their roots to nearby trees!",
+    "threatLevel": "Vulnerable",
+    "imageName": "sandalwood"
+  }
+]

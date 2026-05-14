@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep forest green (#0D3B2E) -->
+    <color name="forest_green_dark">#0D3B2E</color>
+    <!-- Leaf green (#1A6B4A) -->
+    <color name="leaf_green">#1A6B4A</color>
+    <!-- Amber gold (#E8C547) -->
+    <color name="amber_gold">#E8C547</color>
+    <!-- Cream (#F0F7F4) -->
+    <color name="cream">#F0F7F4</color>
+    
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

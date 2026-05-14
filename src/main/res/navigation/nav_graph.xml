@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/wikiFragment">
+
+    <fragment
+        android:id="@+id/wikiFragment"
+        android:name="com.karunadavanya.app.ui.wiki.WikiFragment"
+        android:label="Wildlife Wiki"
+        tools:layout="@layout/fragment_wiki" />
+
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.karunadavanya.app.ui.alerts.AlertsFragment"
+        android:label="Community Pings"
+        tools:layout="@layout/fragment_alerts" />
+
+    <fragment
+        android:id="@+id/soundsFragment"
+        android:name="com.karunadavanya.app.ui.sounds.SoundsFragment"
+        android:label="Forest Sounds"
+        tools:layout="@layout/fragment_sounds" />
+
+    <fragment
+        android:id="@+id/guideFragment"
+        android:name="com.karunadavanya.app.ui.guide.GuideFragment"
+        android:label="Co-existence Guide"
+        tools:layout="@layout/fragment_guide" />
+
+</navigation>
